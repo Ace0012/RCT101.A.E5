@@ -1,0 +1,33 @@
+.App {
+
+}
+.cartlink{
+
+ 
+  /* gap: 10%; */
+  margin-left: 50%;
+
+}
+.navbar{
+  background: rgb(138, 158, 250);
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+
+}
+.home>div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 40px;
+  margin-top: 2%;
+
+}
+.home>div>div{
+  border: 1px solid grey;
+
+}
+.cart>{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
